@@ -1,0 +1,10 @@
+# Stellar-Interior-and-Main-Sequence-Simulation
+A group project (8 team members) from Waterloo's PHYS 375 Stars course. The project involved modelling the interiors of main-sequence stars (only radial stellar structure) and also producing a main sequence by generating a series of stars. The project was completed under significant time constraints. Our group was chosen to investigate the effects of turning on and off different pressure terms within stars (Presentation slides for various scenarios not included here). Also not included is the project description as posted by the professor.
+
+Due to the large group size and the nature of the project, assigning sole authorship of any part of the code is not possible. My role could be considered "co-leader" for the group, as I was one of the more experience python programmers. I put significant time and effort into helping create the "skeleton" for the code (objected-oriented), writing the pressure term control structure, various Runge-Kutta methods (we settled on an Adaptive RK-4 method), writing a significant number of modules/sections of the code, re-writing faulty sections of code, debugging (we had significant struggles getting reliable generation of viable stars), and helping with producing useful output for the presentation. As well, I helped coordinate group meetings and ran through the science for results we produced. One of the main difficulties in completing the project was utilizing all 8 group members, some of whom had no python experience; thankfully everyone in the group was very willing to work hard. We used getdatajoy.com so that we could all contribute to the code simultaneously.
+
+Plots for a few different simulations are included: Main sequence plots, plots for the interior of a 0.673 solar mass star, and plots for the interior of a 5.58 solar mass star.
+
+To run simulations:
+- "Main_File_Star1.py" is used to simulate the interior of a star.
+- "main_sequence_easy.py" or "main_sequence.py" can be used to generate main sequences of stars.
